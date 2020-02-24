@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended"],
+  "plugins": ["jest"],
+  "parserOptions": {},
+  "parser": "babel-eslint",
+  "env": {
+    "jest/globals": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {},
+  "rules": {
+    "semi": ["error", "never"]
+  }
+}
